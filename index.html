@@ -1,0 +1,201 @@
+<html>
+	<head>
+		<title>Buggies' Advent Calendar</title>
+		<script src="AdventScriptTest.js"></script> <!-- JS management of advent -->
+		<link rel="icon" type="image/svg+xml" href="./Images/Snowflake Icon.webp"> <!-- Website Icon-->
+		<link href="./AdventStyle.css" rel="stylesheet"/> <!-- Sytle Sheet link -->
+		
+		<!-- Font Import for Header -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+	</head>
+	
+	<header>
+		<nav>
+		</nav>
+	</header>
+
+	
+	<body>
+		<main>
+		
+		 <div id="root">
+			<h1>12 Days of Ferumi</h1>	
+			<div class="App">
+	
+				<div class="Container">
+					<div class="Tile" onclick="Window3Function()"> <!-- For each of the 12 doors. -->
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">3</div>
+					</div>
+					<div class="Tile" onclick="Window9Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">9</div>
+					</div>
+					<div class="Tile" onclick="Window6Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">6</div>
+					</div>
+					<div class="Tile" onclick="Window1Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">1</div>
+					</div>
+					<div class="Tile" onclick="Window8Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">8</div>
+					</div>
+					<div class="Tile" onclick="Window12Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">12</div>
+					</div>
+					<div class="Tile" onclick="Window7Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">7</div>
+					</div>
+					<div class="Tile" onclick="Window5Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">5</div>
+					</div>
+					<div class="Tile" onclick="Window10Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">10</div>
+					</div>
+					<div class="Tile" onclick="Window11Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">11</div>
+					</div>
+					<div class="Tile" onclick="Window4Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">4</div>
+					</div>
+					<div class="Tile" onclick="Window2Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">2</div>
+					</div>
+				</div>
+				
+				<div class="SnowContainer">
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+				</div>
+			</div>
+		</main>
+		<div class="galleryContainer"> <!-- to organise the popups -->
+
+
+		<div class="buggiewindow" id="buggiewindow1" style="visibility: hidden;"><!--wrapper to hide and show-->
+		<div class="buggiewindow"onclick="Window1Function2()"></div><!--button so you can click the image fine but clicking off it hides it-->
+		<div class="galleryBox"> <!-- container for the gift -->
+		<img class="giftbox" src=".\Images\testface.png"> <!--replace with the images and links-->
+		</div>
+		</div>
+
+		<div class="buggiewindow" id="buggiewindow2" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window2Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow3" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window3Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\SantaFerumi.png"> 
+		<h1>You found a gremlin!<h1/>
+		</div>
+		</div>
+
+		<div class="buggiewindow" id="buggiewindow4" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window4Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow5" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window5Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow6" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window6Function2()"></div>
+		<div class="gallery">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow7" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window7Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow8" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window8Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow9" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window9Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow10" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window10Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow11" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window11Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png">
+		</div>
+		</div>
+		
+		<div class="buggiewindow" id="buggiewindow12" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="Window12Function2()"></div>
+		<div class="galleryBox">
+		<img class="giftbox" src=".\Images\testface.png"> 
+		</div>
+		</div>
+		
+		
+		<div class="buggiewindow" id="buggiewindowerror" style="visibility: hidden;">
+		<div class="buggiewindow"onclick="WindowErrorFunction2()"></div>
+		<div class="gifterrorbox"><p>Naughty!</p> <p>You have to wait!</p> </div>
+		</div>
+		</div>
+		
+		
+		
+		
+
+	</body>
+</html>
