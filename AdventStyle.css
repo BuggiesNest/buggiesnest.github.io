@@ -583,5 +583,10 @@
         background: whitesmoke;
         z-index: 501;
     }
+	video {
+	    object-fit: contain;
+	    overflow-clip-margin: content-box;
+	    overflow: clip;
+	}
 
 
