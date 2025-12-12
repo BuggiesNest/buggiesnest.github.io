@@ -566,6 +566,10 @@
     }
 
     .galleryBox {
+        height: 60vh;
+        border-radius: 20px;
+        background: whitesmoke;
+        width: 45vw;
         z-index: 502;
     }
 
