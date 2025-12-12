@@ -584,9 +584,18 @@
         z-index: 501;
     }
 	video {
-	    object-fit: contain;
-	    overflow-clip-margin: content-box;
-	    overflow: clip;
+    width: 100%;
+    display: block;
+    top: 20px;
+    margin: 0 auto;
+    position: relative;
+	}
+
+	.galleryText {
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    top: 25px;
 	}
 
 
