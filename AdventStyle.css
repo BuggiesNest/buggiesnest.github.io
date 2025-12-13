@@ -563,9 +563,16 @@
 
     .giftbox {
         z-index: 502;
-    }
+		width: 100%;
+	    display: block;
+	    top: 20px;
+	    margin: 0 auto;
+	    position: relative;
+	}
 
     .galleryBox {
+        display: table-caption;
+        justify-content: center;
         height: 60vh;
         border-radius: 20px;
         background: whitesmoke;
@@ -592,44 +599,40 @@
 	}
 
 	.galleryText {
-    font-size: x-large;
-    text-align: center;
-    position: relative;
-    top: 25px;
+	    font-size: x-large;
+	    text-align: center;
+	    position: relative;
+	    top: 25px;
+		}
+	
+	.arrowBox {
+	    text-align: center;
+	    font-size: 6vh;
+	    display: flex;
+	    justify-content: center;
+	    margin: 0 auto;
+	    left: 45vw;
+	    right: 45vw;
+	    top: 25vw;
+	    position: absolute;
 	}
-
-
-
-.arrowBox {
-    text-align: center;
-    font-size: 6vh;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    left: 45vw;
-    right: 45vw;
-    top: 25vw;
-    position: absolute;
-}
-
-.lArrow {
-    line-height: 7vh;
-    left: -22.5vw;
-    position: absolute;
-    background: lightgray;
-    border-radius: 4vh;
-    width: 8vh;
-    height: 8vh;
-}
-.rArrow {
-    line-height: 7vh;
-    right: -22.5vw;
-    position: absolute;
-    background: lightgray;
-    border-radius: 4vh;
-    width: 8vh;
-    height: 8vh;
-}
-
-
-
+	
+	.lArrow {
+	    line-height: 7vh;
+	    left: -22.5vw;
+	    position: absolute;
+	    background: lightgray;
+	    border-radius: 4vh;
+	    width: 8vh;
+	    height: 8vh;
+	}
+	.rArrow {
+	    line-height: 7vh;
+	    right: -22.5vw;
+	    position: absolute;
+	    background: lightgray;
+	    border-radius: 4vh;
+	    width: 8vh;
+	    height: 8vh;
+	}
+	
