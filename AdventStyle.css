@@ -625,6 +625,7 @@
 	    border-radius: 4vh;
 	    width: 8vh;
 	    height: 8vh;
+		cursor: pointer;
 	}
 	.rArrow {
 	    line-height: 7vh;
@@ -634,5 +635,16 @@
 	    border-radius: 4vh;
 	    width: 8vh;
 	    height: 8vh;
+		cursor: pointer;
 	}
 	
+	.rArrow:hover {
+        -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
+        filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
+    }
+	.lArrow:hover {
+        -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
+        filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
+    }
+	
+
