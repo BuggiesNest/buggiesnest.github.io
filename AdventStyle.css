@@ -560,14 +560,15 @@
         left: 0;
         top: 0;
     }
-
     .giftbox {
+        object-fit: contain;
+        max-height: 85%;
         z-index: 502;
-		width: 100%;
-	    display: block;
-	    top: 20px;
-	    margin: 0 auto;
-	    position: relative;
+        width: 100%;
+        display: block;
+        top: 20px;
+        margin: 0 auto;
+        position: relative;
 	}
 
     .galleryBox {
@@ -647,4 +648,5 @@
         filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
     }
 	
+
 
