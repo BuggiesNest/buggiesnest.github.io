@@ -8,11 +8,10 @@ body::-webkit-scrollbar {
 	}
 
 	.numbertext {
-	  color: #f2f2f2;
-	  font-size: 12px;
+	  color: black;
+	  font-size: 20px;
 	  padding: 8px 12px;
 	  position: absolute;
-	  top: 0;
 	}
 
 	.fade {
@@ -1141,3 +1140,4 @@ html,body,#root {
         filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
 	}
 }
+
