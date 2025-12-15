@@ -138,9 +138,6 @@ showSlides(1, 8);
 showSlides(1, 9);
 showSlides(1, 10);
 
-showSlides(1, 0);
-showSlides(1, 1);
-
 	// Next/previous controls
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -163,6 +160,7 @@ function showSlides(n, no) {
 function testLoad(){
 	document.getElementById('buggiewindowerror').style.visibility = "visible"
 }
+
 
 
 
