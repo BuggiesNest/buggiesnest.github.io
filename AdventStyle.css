@@ -647,10 +647,18 @@ html,body,#root {
 	}
 
 	.galleryText {
-	    font-size: x-large;
+		color: grey;
+	    font-size: large;
 	    text-align: center;
 	    position: relative;
 	    top: 25px;
+		}
+	.galleryText2 {
+	    color: lightgrey;
+	    font-size: large;
+	    text-align: center;
+	    position: relative;
+	    top: 30px;
 		}
 	.creditText {
 	    font-size: x-large;
@@ -1099,12 +1107,20 @@ html,body,#root {
 	}
 
 	.galleryText {
-	    font-size: x-large;
+	    color: grey;
+	    font-size: large;
 	    text-align: center;
 	    position: relative;
 	    top: 25px;
 		}
-
+	.galleryText2 {
+	    color: lightgrey;
+	    font-size: large;
+	    text-align: center;
+	    position: relative;
+	    top: 30px;
+		}
+	
 	.creditText {
 	    font-size: x-large;
 	    text-align: center;
@@ -1154,4 +1170,5 @@ html,body,#root {
         filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
 	}
 }
+
 
