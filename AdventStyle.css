@@ -633,7 +633,7 @@ html,body,#root {
         display: table-caption;
         justify-content: center;
         max-height: 60vh;
-        border-radius: 20px;
+        border-radius: 3%;
         background: whitesmoke;
         width: 45vw;
         z-index: 502;
@@ -691,10 +691,11 @@ html,body,#root {
 	    display: flex;
 	    justify-content: center;
 	    margin: 0 auto;
-	    left: 45vw;
-	    right: 45vw;
-	    top: 22vw;
+	    left: 40%;
+	    /* right: 40%; */
+	    top: 45%;
 	    position: absolute;
+	    width: 20%;
 	}
 	
 	.lArrow {
@@ -705,11 +706,13 @@ html,body,#root {
 	    border-radius: 4vh;
 	    width: 8vh;
 	    height: 8vh;
-		cursor: pointer;
-		-webkit-user-select: none; /* Safari */
-		-ms-user-select: none; /* IE 10 and IE 11 */
-		user-select: none; /* Standard syntax */
+	    cursor: pointer;
+	    -webkit-user-select: none; /* Safari */
+	    -ms-user-select: none; /* IE 10 and IE 11 */
+	    user-select: none; /* Standard syntax */
 	}
+
+.lArrow {}
 	.rArrow {
 	    line-height: 7vh;
 	    right: -22.5vw;
@@ -1100,11 +1103,11 @@ html,body,#root {
 
 	
     .galleryBox {
-        padding: 0 0 2vh 0;
+        padding: 0 0 40px 0;
         display: table-caption;
         justify-content: center;
-        height: auto;
-        border-radius: 20px;
+        max-height: 60vh;
+        border-radius: 3%;
         background: whitesmoke;
         width: 45vw;
         z-index: 502;
@@ -1166,10 +1169,10 @@ html,body,#root {
 	    display: flex;
 	    justify-content: center;
 	    margin: 0 auto;
-	    left: 45vw;
-	    right: 45vw;
-	    top: 43vh;
+	    left: 40%;
+	    top: 45%;
 	    position: absolute;
+	    width: 20%;
 	}
 	
 	.lArrow {
