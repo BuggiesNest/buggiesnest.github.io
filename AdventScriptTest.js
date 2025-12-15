@@ -5,7 +5,8 @@ if (new Date().getDate() >= 14){
 else{{document.getElementById('buggiewindowerror').style.visibility = "visible"
 }}};
 function Window1Function2(){
-	document.getElementById('buggiewindow1').style.visibility = "hidden"
+	document.getElementById('buggiewindow1').style.visibility = "hidden";
+    document.getElementById('bugvideo').pause();
 };
 
 function Window2Function() {
