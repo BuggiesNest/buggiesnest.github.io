@@ -629,9 +629,10 @@ html,body,#root {
 
 	
     .galleryBox {
+        padding-bottom: 60px;
         display: table-caption;
         justify-content: center;
-        height: 60vh;
+        max-height: 60vh;
         border-radius: 20px;
         background: whitesmoke;
         width: 45vw;
@@ -657,25 +658,31 @@ html,body,#root {
 	}
 
 	.galleryText {
+		padding: 10px;
 		color: grey;
-	    font-size: large;
-	    text-align: center;
-	    position: relative;
-	    top: 25px;
+		font-size: large;
+		text-align: center;
+		position: relative;
+		top: 25px;
 		}
 	.galleryText2 {
+	    padding: 10px;
+	    background: whitesmoke;
 	    color: lightgrey;
 	    font-size: large;
 	    text-align: center;
 	    position: relative;
-	    top: 30px;
-		}
+	    top: 25px;
+	    border-radius: 20px;
+	 }
 	.creditText {
+	    border-radius: 20px;
+	    background: whitesmoke;
 	    font-size: x-large;
 	    text-align: center;
 	    position: relative;
 	    top: 25px;
-		}
+	 }
 
 	
 	.arrowBox {
@@ -1123,19 +1130,25 @@ html,body,#root {
 	}
 
 	.galleryText {
+	    padding: 10px;
+	    border-radius: 20px;
+	    background: whitesmoke;
 	    color: grey;
 	    font-size: large;
 	    text-align: center;
 	    position: relative;
 	    top: 25px;
-		}
+	 }
 	.galleryText2 {
+	    padding: 10px;
+	    background: whitesmoke;
 	    color: lightgrey;
 	    font-size: large;
 	    text-align: center;
 	    position: relative;
-	    top: 30px;
-		}
+	    top: 25px;
+	    border-radius: 20px;
+	 }
 	
 	.creditText {
 	    font-size: x-large;
