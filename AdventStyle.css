@@ -30,7 +30,11 @@ body::-webkit-scrollbar {
 	  to {opacity: 1}
 	}
 
-
+	.creditText::before {
+		vertical-align: super;
+		font-size: small;
+		content: "by: ";
+	}
 
 
 
