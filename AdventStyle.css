@@ -652,6 +652,13 @@ html,body,#root {
 	    position: relative;
 	    top: 25px;
 		}
+	.creditText {
+	    font-size: x-large;
+	    text-align: center;
+	    position: relative;
+	    top: 25px;
+		}
+
 	
 	.arrowBox {
 	    text-align: center;
@@ -1092,6 +1099,13 @@ html,body,#root {
 	}
 
 	.galleryText {
+	    font-size: x-large;
+	    text-align: center;
+	    position: relative;
+	    top: 25px;
+		}
+
+	.creditText {
 	    font-size: x-large;
 	    text-align: center;
 	    position: relative;
