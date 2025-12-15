@@ -8,10 +8,16 @@ body::-webkit-scrollbar {
 	}
 
 	.numbertext {
+	  border-radius:30%;
+	  z-index:504;
+	  background:white;
 	  color: black;
 	  font-size: 20px;
 	  padding: 8px 12px;
 	  position: absolute;
+	  -webkit-user-select: none; /* Safari */
+	  -ms-user-select: none; /* IE 10 and IE 11 */
+	  user-select: none; /* Standard syntax */
 	}
 
 	.fade {
@@ -684,31 +690,37 @@ html,body,#root {
 	    line-height: 7vh;
 	    left: -22.5vw;
 	    position: absolute;
-	    background: lightgray;
+	    background: white;
 	    border-radius: 4vh;
 	    width: 8vh;
 	    height: 8vh;
 		cursor: pointer;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 	.rArrow {
 	    line-height: 7vh;
 	    right: -22.5vw;
 	    position: absolute;
-	    background: lightgray;
+	    background: white;
 	    border-radius: 4vh;
 	    width: 8vh;
 	    height: 8vh;
 		cursor: pointer;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 	
 	.rArrow:hover {
-        -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
-        filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
+        -webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
+        filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
     }
 	.lArrow:hover {
-        -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
-        filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
-    }
+        -webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
+        filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
+	}
 }
 
 
@@ -1144,31 +1156,36 @@ html,body,#root {
 	    line-height: 7vh;
 	    left: -35vw;
 	    position: absolute;
-	    background: lightgray;
+	    background: white;
 	    border-radius: 4vh;
 	    width: 8vh;
 	    height: 8vh;
 	    cursor: pointer;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 	.rArrow {
 	    line-height: 7vh;
 	    right: -35vw;
 	    position: absolute;
-	    background: lightgray;
+	    background: white;
 	    border-radius: 4vh;
 	    width: 8vh;
 	    height: 8vh;
 	    cursor: pointer;
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none; /* Standard syntax */
 	}
 	
 	.rArrow:hover {
-        -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
-        filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
+        -webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
+        filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
     }
 	.lArrow:hover {
-        -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
-        filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
+        -webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
+        filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
 	}
 }
-
 
