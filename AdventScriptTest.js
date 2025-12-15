@@ -124,7 +124,7 @@ function WindowErrorFunction2(){
 
 
 
-let slideIndex = [1,1];
+let slideIndex = [1,1,1,1,1,1,1,1,1,1,1];
 let slideId = ["slidesDay2", "slidesDay3", "slidesDay4", "slidesDay5", "slidesDay6", "slidesDay7", "slidesDay8", "slidesDay9", "slidesDay10", "slidesDay11", "slidesDay12"]
 showSlides(1, 0);
 showSlides(1, 1);
@@ -160,6 +160,7 @@ function showSlides(n, no) {
 function testLoad(){
 	document.getElementById('buggiewindowerror').style.visibility = "visible"
 }
+
 
 
 
