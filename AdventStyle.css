@@ -669,3 +669,11 @@ html,body,#root {
 	    margin-left: auto;
 	    margin-right: 10%;
 	}
+@media only screen and (orientation: portrait) {
+	.App {
+        aspect-ratio: 3/4;
+    }
+	.Tile {
+        width: 29%;
+    }
+}
