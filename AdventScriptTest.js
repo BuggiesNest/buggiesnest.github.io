@@ -124,13 +124,15 @@ function Window9Function2(){
 
 function Window10Function() {
 if ((Date.now()-(((new Date()).getTimezoneOffset()*60)*1000)) >= (new Date("2025-12-23"))){
-{document.getElementById('buggiewindow10').style.visibility = "visible"
-}}
-else{{document.getElementById('buggiewindowerror').style.visibility = "visible"
-}}};
+	document.getElementById('buggiewindow10').style.visibility = "visible"
+	document.getElementById('honorvid').src="https://www.youtube-nocookie.com/embed/fHuWPh8Jqm4?si=RTVwfsm7XoqkgD19"
+}
+else{document.getElementById('buggiewindowerror').style.visibility = "visible"
+}};
 
 function Window10Function2(){
 	document.getElementById('buggiewindow10').style.visibility = "hidden"
+	document.getElementById('honorvid').src=""
 };
 
 
