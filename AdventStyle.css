@@ -40,12 +40,12 @@ body::-webkit-scrollbar {
         padding-top: 3%;
         aspect-ratio: 16/9;
         object-fit: contain;
-        max-height: 85%;
+        max-height: 60vh;
         width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
-	 }
+  }
 
 
 
@@ -575,7 +575,7 @@ html,body,#root {
     .galleryBox {
         display: table;
         justify-content: center;
-        max-height: 60vh;
+        max-height: 70vh;
         border-radius: 3%;
         background: whitesmoke;
         width: 50vw;
@@ -593,12 +593,11 @@ html,body,#root {
         z-index: 501;
     }
 	video {
+    max-height: 60vh;
     padding-top: 2%;
     width: 100%;
     display: block;
-    /* top: 20px; */
     margin: 0 auto;
-    position: relative;
  }
 
 	.galleryText {
