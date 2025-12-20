@@ -1,0 +1,579 @@
+<html><head>
+		<title>Buggies' Advent Calendar</title>
+		<script src="AdventScriptTest.js"></script> <!-- JS management of advent -->
+		<link rel="icon" type="image/svg+xml" href="./Images/Snowflake Icon.webp"> <!-- Website Icon-->
+		<link href="./AdventStyle.css" rel="stylesheet"> <!-- Sytle Sheet link -->
+		
+		<!-- Font Import for Header -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&amp;display=swap" rel="stylesheet">
+	<style type="text/css" id="ctre_styles">
+			#ctre_wnd {
+				position: fixed; bottom: 0; right: 10px;
+				background: #fff; box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+				border-radius: 3px 3px 0 0;
+				z-index: 2147483647;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				#ctre_wnd { background: #000; box-shadow: 0px 0px 40px rgba(255,255,255,0.15); }
+			}
+			</style></head>
+	
+	<body><header>
+		<nav>
+		</nav>
+	</header>
+
+	
+	
+		<main>
+		
+		 <div id="root">
+			<h1>12 Days of Ferumi</h1>	
+			<div class="App">
+	
+				<div class="Container">
+					<div class="Tile" onclick="Window3Function()"> <!-- For each of the 12 doors. -->
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">3</div>
+					</div>
+					<div class="Tile" onclick="Window9Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">9</div>
+					</div>
+					<div class="Tile" onclick="Window6Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">6</div>
+					</div>
+					<div class="Tile" onclick="Window1Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">1</div>
+					</div>
+					<div class="Tile" onclick="Window8Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">8</div>
+					</div>
+					<div class="Tile" onclick="Window12Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">12</div>
+					</div>
+					<div class="Tile" onclick="Window7Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">7</div>
+					</div>
+					<div class="Tile" onclick="Window5Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">5</div>
+					</div>
+					<div class="Tile" onclick="Window10Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">10</div>
+					</div>
+					<div class="Tile" onclick="Window11Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">11</div>
+					</div>
+					<div class="Tile" onclick="Window4Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">4</div>
+					</div>
+					<div class="Tile" onclick="Window2Function()">
+						<img alt="door" class="TileImage" src=".\Images\Present.webp">
+						<div class="TileText">2</div>
+					</div>
+				</div>
+				
+				<div class="SnowContainer">
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+					<div class="snowflake"><img src=".\Images\Snow.webp"></div>
+				</div>
+			</div>
+		</div></main>
+<!--                     _                _   _                __                          _ -->
+<!--                    | |              | | (_)              / _|                        (_)-->
+<!--  _ __   ___     ___| |__   ___  __ _| |_ _ _ __   __ _  | |_ ___ _ __ _   _ _ __ ___  _ -->
+<!-- | '_ \ / _ \   / __| '_ \ / _ \/ _` | __| | '_ \ / _` | |  _/ _ \ '__| | | | '_ ` _ \| |-->
+<!-- | | | | (_) | | (__| | | |  __/ (_| | |_| | | | | (_| | | ||  __/ |  | |_| | | | | | | |-->
+<!-- |_| |_|\___/   \___|_| |_|\___|\__,_|\__|_|_| |_|\__, | |_| \___|_|   \__,_|_| |_| |_|_|-->
+<!--                                                   __/ |                                 -->
+<!--                 _               _   _ _ _        |___/_        _                        -->
+<!--                | |             | | | (_) |        |___ \      | |                       -->
+<!-- __      _____  | |__   __ _  __| | | |_| | _____    __) |   __| | __ _ _   _ ___        -->
+<!-- \ \ /\ / / _ \ | '_ \ / _` |/ _` | | | | |/ / _ \  |__ <   / _` |/ _` | | | / __|       -->
+<!--  \ V  V /  __/ | | | | (_| | (_| | | | |   <  __/  ___) | | (_| | (_| | |_| \__ \       -->
+<!--  _\_/\_/ \___| |_| |_|\__,_|\__,_| |_|_|_|\_\___|_|____/   \__,_|\__,_|\__, |___/       -->
+<!-- | |                        | |        | | | |   (_)                     __/ |           -->
+<!-- | |_ ___    _ __ ___   __ _| | _____  | |_| |__  _ ___                 |___/            -->
+<!-- | __/ _ \  | '_ ` _ \ / _` | |/ / _ \ | __| '_ \| / __|                                 -->
+<!-- | || (_) | | | | | | | (_| |   <  __/ | |_| | | | \__ \                                 -->
+<!--  \__\___/  |_| |_| |_|\__,_|_|\_\___|  \__|_| |_|_|___/                                 -->
+<!--dont cheat or timetravel >:(-->                                                                                         
+<!--(website by VulcanCakes and Solahi, inspired by https://l4zu.li/)-->
+
+
+
+		<div class="galleryContainer"> <!-- to organise the popups -->
+
+
+
+
+
+
+
+		
+		<div class="galleryContainer"> <!-- to organise the popups -->
+	
+	
+			<div class="buggiewindow" id="buggiewindow1" style="visibility: hidden;"><!--wrapper to hide and show-->
+				<div class="buggiewindow" onclick="Window1Function2()"></div><!--button so you can click the image fine but clicking off it hides it-->
+				<div class="galleryBox"> <!-- container for the gift -->
+					<video id="bugvideo" controls=""><source src=".\Images\0001-0200.mp4" type="video/mp4"></video> <!--replace with the images and links-->
+					<div class="galleryText">Model by Minty, video by Honor</div> <!--text-->
+					<br>
+				</div>
+			</div>
+
+			<div class="buggiewindow" id="buggiewindow2" style="visibility:hidden">
+				<div class="buggiewindow" onclick="Window2Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay2 fade" style="display: block;">
+						<div class="numbertext">1 / 7</div>
+						<img src=".\Images\IMG_6366.jpg" class="giftboxv">
+						<div class="creditText">Kozak</div>
+					</div>
+
+					<div class="slidesDay2 fade" style="display: none;">
+						<div class="numbertext">2 / 7</div>
+						<img src=".\Images\IMG_6367.jpg" class="giftboxv">
+						<div class="creditText">Kozak</div>
+					</div>
+
+					<div class="slidesDay2 fade" style="display: none;">
+						<div class="numbertext">3 / 7</div>
+						<img src=".\Images\IMG_6369.jpg" class="giftboxv">
+						<div class="creditText">Kozak</div>
+					</div>
+					
+					<div class="slidesDay2 fade" style="display: none;">
+						<div class="numbertext">4 / 7</div>
+						<img src=".\Images\IMG_6371.jpg" class="giftboxv">
+						<div class="creditText">Kozak</div>
+					</div>
+					
+					<div class="slidesDay2 fade" style="display: none;">
+						<div class="numbertext">5 / 7</div>
+						<img src=".\Images\IMG_6372.jpg" class="giftboxv">
+						<div class="creditText">Kozak</div>
+					</div>
+					
+					<div class="slidesDay2 fade" style="display: none;">
+						<div class="numbertext">6 / 7</div>
+						<img src=".\Images\IMG_4487.jpg" class="giftboxv">
+						<div class="creditText">DJDeeJay</div>
+					</div>
+					
+					<div class="slidesDay2 fade" style="display: none;">
+						<div class="numbertext">7 / 7</div>
+						<img src=".\Images\IMG_4486.jpg" class="giftboxv">
+						<div class="creditText">DJDeeJay</div>
+					</div>
+
+					<div class="galleryText"></div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,0)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,0)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="buggiewindow" id="buggiewindow3" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window3Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay3 fade" style="display: block;">
+						<div class="numbertext">1 / 2</div>
+						<img src=".\Images\day3\vulcan1.png" class="giftboxv">
+						<div class="creditText">Vulcan</div>
+					</div>
+
+					<div class="slidesDay3 fade" style="display: none;">
+						<div class="numbertext">2 / 2</div>
+						<img src=".\Images\day3\vulcan2.png" class="giftboxv">
+						<div class="creditText">Vulcan</div>
+					</div>
+<!--
+                    <div class="slidesDay3 fade" style="display: none;">
+						<div class="numbertext">3/?</div>
+						<img src=".\Images\day3\platy1.png" class="giftboxv">
+						<div class="creditText">Platypus</div>
+				    </div>
+-->
+					<!-- vulcan, to add plats pictures: upload them to /images/day/,
+					copy the commented out module above to inside gallerybox, where it is now
+					change the numbers in numbertext to reflect actual count and index, repeat for each image.
+					you dont need to change any JS or CSS.
+
+
+-->
+					
+					<div class="galleryText">Paper craft instructions:<a href="https://advent.buggies.gay/Images/day3/bugs_color.pdf">1</a>, <a href="https://advent.buggies.gay/Images/day3/bugs_instructions1.pdf">2</a>, <a href="https://pappetdesign.com/product/paper-bugs-craft-project/">design by pappet</a></div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,1)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,1)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+	
+			<div class="buggiewindow" id="buggiewindow4" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window4Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay4 fade" style="display: block;">
+						<div class="numbertext">1 / 2</div>
+						<img src=".\Images\day4\acidic1.jpg" class="giftboxv">
+						<div class="galleryText">"Buggie studying historical indigenous writing"</div>
+					</div>
+
+					<div class="slidesDay4 fade" style="display: none;">
+						<div class="numbertext">2 / 2</div>
+						<img src=".\Images\day4\acidic2.jpg" class="giftboxv">
+						<div class="galleryText">"Ferumi heard about the runestone of Harald Bluetooth and expected alien technology. Instead she met Viking Jesus"</div>
+					</div>
+
+					<div class="creditText">Acidic</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,2)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,2)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow5" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window5Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay5 fade" style="display: block;">
+						<div class="numbertext">1 / 11</div>
+						<img src=".\Images\day5\DJDeeJay1.png" class="giftboxv">
+						<div class="creditText">DJDeeJay</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">2 / 11</div>
+						<img src=".\Images\day5\acidic1.png" class="giftboxv">
+						<div class="creditText">Acidic</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">3 / 11</div>
+						<img src=".\Images\day5\eltrov1.png" class="giftboxv">
+						<div class="creditText">Eltrov</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">4 / 11</div>
+						<img src=".\Images\day5\fluffles1.jpg" class="giftboxv">
+						<div class="creditText">Fluffles</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">5 / 11</div>
+						<img src=".\Images\day5\foxythedemonfox1.png" class="giftboxv">
+						<div class="creditText">Foxythedemonfox</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">6 / 11</div>
+						<img src=".\Images\day5\foxythedemonfox2.png" class="giftboxv">
+						<div class="creditText">Foxythedemonfox</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">7 / 11</div>
+						<img src=".\Images\day5\kozak1.png" class="giftboxv">
+						<div class="creditText">Kozak</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">8 / 11</div>
+						<img src=".\Images\day5\liv1.png" class="giftboxv">
+						<div class="creditText">Liv</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">9 / 11</div>
+						<img src=".\Images\day5\sangrino1.png" class="giftboxv">
+						<div class="creditText">Sangrino</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">10 / 11</div>
+						<img src=".\Images\day5\peterhoffman1.png" class="giftboxv">
+						<div class="creditText">Peter Hoffman</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">11 / 11</div>
+						<img src=".\Images\day5\vulcancakes1.png" class="giftboxv">
+						<div class="creditText">Vulcan Cakes</div>
+					</div>
+					<div class="slidesDay5 fade" style="display: none;">
+						<div class="numbertext">11 / 11</div>
+						<img src=".\Images\day5\ark1.png" class="giftboxv">
+						<div class="creditText">Ark</div>
+					</div>
+					<div class="galleryText">Bugly christmas sweaters, template by DJDeeJay</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,3)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,3)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow6" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window6Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay6 fade" style="display: block;">
+						<div class="numbertext">1 / 3</div>
+						<img src=".\Images\day6\buggielost.jpg" class="giftboxv">
+						<div class="creditText">Solahi</div>
+					</div>
+
+					<div class="slidesDay6 fade" style="display: none;">
+						<div class="numbertext">2 / 3</div>
+						<img src=".\Images\day6\IMG1.jpg" class="giftboxv">
+						<div class="creditText">Solahi</div>
+					</div>
+
+					<div class="slidesDay6 fade" style="display: none;">
+						<div class="numbertext">3 / 3</div>
+						<img src=".\Images\day6\IMG2.jpg" class="giftboxv">
+						<div class="creditText">Solahi</div>
+					</div>
+
+					<div class="galleryText">Taken on a visit to Boston (England)</div>
+					<div class="galleryText2">PS: Some locals asked me what I was doing and told me "tell your friend from boston we were here first"</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,4)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,4)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow7" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window7Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay7 fade" style="display: block;">
+						<div class="numbertext">1 / 3</div>
+						<a href=".\Images\day7\andrick1.png" target="_blank">
+						<img src=".\Images\day7\andrick1.png" class="giftboxv">
+						</a>
+						<iframe id="honorvid" class="youtubevid" src="https://www.youtube-nocookie.com/embed/fHuWPh8Jqm4?si=RTVwfsm7XoqkgD19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<div class="creditText">Andrick</div>
+						<div class="galleryText2">(Click image to open in new tab)</div>
+					</div>
+					<div class="slidesDay7 fade" style="display: none;">
+						<div class="numbertext">2 / 3</div>
+						<iframe src="https://mywordle.strivemath.com/?word=zcxxxm"class="giftboxv"id="wordle"></iframe>
+						<div class="creditText">Solahi (and strivemath.com)</div>
+					</div>
+					<div class="slidesDay7 fade" style="display: none;">
+						<div class="numbertext">3 / 3</div>
+						<a href=".\Images\day7\crossword.png" target="_blank">
+						<img src=".\Images\day7\crossword.png" class="giftboxv">
+						</a>
+						<div class="creditText">The Buggies</div>
+						<div class="galleryText2">(Click image to open in new tab)</div>
+					</div>
+					<!--<div class="slidesDay7 fade" style="display: none;">
+						<div class="numbertext">3 / 3</div>
+						<iframe src="https://puzzel.org/en/slidingpuzzle/play?p=-Ogt69ZoSdphUrYRD5yj"class="giftboxv"id="wordle"></iframe>
+						<div class="creditText">Andrick (art by MuzYoshi)</div>
+					</div>-->
+					<div class="galleryText">buggie puzzles</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,5)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,5)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow8" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window8Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay8 fade" style="display: block;">
+						<div class="numbertext">1 / 3</div>
+						<img src=".\Images\day8\plat1.jpeg" class="giftboxv">
+						<div class="creditText">Platypus12</div>
+					</div>
+
+					<div class="slidesDay8 fade" style="display: none;">
+						<div class="numbertext">2 / 3</div>
+						<img src=".\Images\day8\plat2.jpeg" class="giftboxv">
+						<div class="creditText">Platypus12</div>
+					</div>
+
+					<div class="slidesDay8 fade" style="display: none;">
+						<div class="numbertext">3 / 3</div>
+						<img src=".\Images\day8\plat3.jpeg" class="giftboxv">
+						<div class="creditText">Platypus12</div>
+					</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,6)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,6)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow9" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window9Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay9 fade" style="display: block;">
+						<div class="numbertext">1 / 3</div>
+						<img src=".\Images\day9\testface.png" class="giftboxv">
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="slidesDay9 fade" style="display: none;">
+						<div class="numbertext">2 / 3</div>
+						<img src=".\Images\day9\testface.png" class="giftboxv">
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="slidesDay9 fade" style="display: none;">
+						<div class="numbertext">3 / 3</div>
+						<img src=".\Images\day9\testface.png" class="giftboxv">
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="galleryText">Minecraft Christmas</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,7)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,7)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow10" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window10Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay10 fade" style="display: block;">
+						<div class="numbertext">1 / 2</div>
+						
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="slidesDay10 fade" style="display: none;">
+						<div class="numbertext">2 / 2</div>
+						<img src=".\Images\day10\testface.png" class="giftboxv">
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="galleryText">Holocure mod</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,8)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,8)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow11" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window11Function2()"></div>
+				<div class="galleryBox">
+					<div class="slidesDay11 fade" style="display: block;">
+						<div class="numbertext">1 / 3</div>
+						<img src=".\Images\day11\testface.png" class="giftboxv">
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="slidesDay11 fade" style="display: none;">
+						<div class="numbertext">2 / 3</div>
+						<img src=".\Images\day11\testface.png" class="giftboxv">
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="slidesDay11 fade" style="display: none;">
+						<div class="numbertext">3 / 3</div>
+						<img src=".\Images\day11\testface.png" class="giftboxv">
+						<div class="creditText">credit</div>
+					</div>
+
+					<div class="galleryText">New Years Resolutions</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,9)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,9)">&gt;</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<div class="buggiewindow" id="buggiewindow12" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="Window12Function2()"></div>
+				<div class="galleryBox">
+					<img class="giftbox" src=".\Images\testface.png"> 
+					<div class="galleryText">Magmaboard</div>
+				</div>
+			</div>
+			
+			
+			<div class="buggiewindow" id="buggiewindowerrortest" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="WindowErrorFunction2()"></div>
+				<div class="gifterrorbox"><p>Naughty!</p> <p>You have to wait!</p> </div>
+				</div>
+			
+	
+			<div class="buggiewindow" id="buggiewindowerror" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="WindowErrorFunction2()"></div>
+				<div class="galleryBox">
+					<img class="giftbox" src=".\Images\SantaFerumi.png"> 
+					<div class="galleryText" style="color: red;font-weight: bold;">You found a gremlin! <br>
+					<span style="font-size: small;">(Wait for the right day!)</span>
+					</div>
+				</div>
+			</div>
+
+
+			
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
