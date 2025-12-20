@@ -330,6 +330,7 @@ html,body,#root {
         text-align: center;
         object-fit: cover;
         height: inherit;
+        margin: 0 auto;
     }
 
     .SelectionContainer {
@@ -631,6 +632,7 @@ html,body,#root {
 	}
 
 	.arrowBox {
+	    left: 0;
 	    width: 100%;
 	    line-height: 7vh;
 	    top: 50%;
