@@ -36,6 +36,32 @@ body::-webkit-scrollbar {
 		content: "by: ";
 	}
 
+	.creditText2::before {
+		vertical-align: super;
+		font-size: small;
+		content: "from: ";
+	}
+
+	.rezitext {
+		/* animation: boxAnimation 0.5s steps(2, jump-none) infinite alternate; */
+		padding: 1%;
+		/* border-color: forestgreen; */
+		border-style: dashed;
+		margin: 5% 10%;
+		font-size: xx-large;
+		font-weight: 700;
+		font-family: cursive;
+	}
+
+	.rezitext::before,.rezitext::after {
+		content: "\"";
+	}
+
+	@keyframes boxAnimation {
+	  from {border-color: crimson;}
+	  to {border-color: forestgreen;}
+	}
+
 	.youtubevid {
         padding-top: 3%;
         aspect-ratio: 16/9;
@@ -585,7 +611,7 @@ html,body,#root {
         display: table;
         justify-content: center;
         max-height: 70vh;
-        border-radius: 3%;
+        border-radius: 3vh;
         background: whitesmoke;
         width: 50vw;
         z-index: 502;
@@ -623,11 +649,14 @@ html,body,#root {
 	    text-align: center;
 	    border-radius: 20px;
 	 }
-	.creditText {
+	.creditText,.creditText2 {
+	    font-size: x-large;
+	    text-align: center;
+	 } {
 	    font-size: x-large;
 	    text-align: center;
 	 }
-
+	
 	
 
 	.rArrow:hover {
