@@ -184,6 +184,16 @@ function WindowErrorFunction2(){
 };
 
 
+function creditswap(){
+	document.getElementById('cookiecreditless').style.display = "none"
+	document.getElementById('cookiecreditful').style.display = "block"
+};
+function creditswap2(){
+	document.getElementById('cookiecreditful').style.display = "none"
+	document.getElementById('cookiecreditless').style.display = "block"
+};
+
+
 
 let slideIndex = [1,1,1,1,1,1,1,1,1,1,1];
 let slideId = ["slidesDay2", "slidesDay3", "slidesDay4", "slidesDay5", "slidesDay6", "slidesDay7", "slidesDay8", "slidesDay9", "slidesDay10", "slidesDay11", "slidesDay12"]
