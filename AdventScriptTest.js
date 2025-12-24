@@ -152,8 +152,8 @@ function Window11Function2(){
 
 function Window12Function() {
 if ((Date.now()-(((new Date()).getTimezoneOffset()*60)*1000)) >= (new Date("2025-12-25"))){
-{document.getElementById('buggiewindow12').style.visibility = "visible"
-}}
+{document.getElementById('buggiewindow12').style.visibility = "visible"}
+}
 else{{document.getElementById('buggiewindowerror').style.visibility = "visible"
 }}};
 
@@ -161,10 +161,23 @@ function Window12Function2(){
 	document.getElementById('buggiewindow12').style.visibility = "hidden"
 };
 
+function WindowErrorTest(){
+	if ((Date.now()-(((new Date()).getTimezoneOffset()*60)*1000)) >= (new Date("2025-12-25"))){
+	{document.getElementById('errorbuttonn').style.visibility = "visible"
+	}}
+	else{{document.getElementById('errorbuttonn').style.visibility = "hidden"
+}}};
 
+
+function WindowErrorFunction(){
+	var audio = new Audio('./Images/clown-honk.mp3');
+	audio.play();
+	document.getElementById('buggiewindowerror2').style.visibility = "visible"
+};
 
 function WindowErrorFunction2(){
 	document.getElementById('buggiewindowerror').style.visibility = "hidden"
+	document.getElementById('buggiewindowerror2').style.visibility = "hidden"
 };
 
 
@@ -205,4 +218,9 @@ function showSlides(n, no) {
 function testLoad(){
 	document.getElementById('buggiewindowerror').style.visibility = "visible"
 }
+
+
+
+
+
 
