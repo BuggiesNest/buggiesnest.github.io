@@ -673,16 +673,6 @@ html,body,#root {
 	    text-align: center;
 	 }
 	
-	
-
-	.rArrow:hover {
-        -webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
-        filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
-    }
-	.lArrow:hover {
-        -webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
-        filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
-	}
 
 	.arrowBox {
 	    pointer-events: none;
@@ -697,8 +687,8 @@ html,body,#root {
 	    justify-self: anchor-center;
 	}
 
-	.lArrow {
-	    pointer-events: all;
+	.lArrow, .rArrow{
+		pointer-events: all;
 	    position: relative;
 	    aspect-ratio: 1/1;
 	    background: white;
@@ -708,26 +698,29 @@ html,body,#root {
 	    -webkit-user-select: none; /* Safari */
 	    -ms-user-select: none; /* IE 10 and IE 11 */
 	    user-select: none; /* Standard syntax */
+	}
+
+
+	.lArrow {
 	    margin-right: auto;
 	    margin-left: 10%;
 	}
-	.clickbox {
-    cursor: pointer;
-	}
 	.rArrow {
-	    pointer-events: all;
-	    position: relative;
-	    aspect-ratio: 1/1;
-	    background: white;
-	    border-radius: 100%;
-	    height: 8vh;
-	    cursor: pointer;
-	    -webkit-user-select: none; /* Safari */
-	    -ms-user-select: none; /* IE 10 and IE 11 */
-	    user-select: none; /* Standard syntax */
 	    margin-left: auto;
 	    margin-right: 10%;
 	}
+
+	.lArrow:hover,.rArrow:hover {
+        -webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
+        filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
+	}
+
+
+
+	.clickbox {
+    cursor: pointer;
+	}
+
 	.fairylightscontainter{
 		z-index: 20;
 		pointer-events: none;
@@ -808,6 +801,7 @@ iframe#wordle {
         width: 29%;
     }
 }
+
 
 
 
