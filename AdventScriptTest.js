@@ -161,11 +161,14 @@ function Window12Function2(){
 	document.getElementById('buggiewindow12').style.visibility = "hidden"
 };
 
-function WindowErrorTest(){
+function ChristmasTest(){
 	if ((Date.now()-(((new Date()).getTimezoneOffset()*60)*1000)) >= (new Date("2025-12-25"))){
 	{document.getElementById('errorbuttonn').style.visibility = "visible"
+	 document.getElementById('fairycont').style.visibility = "visible"
 	}}
 	else{{document.getElementById('errorbuttonn').style.visibility = "hidden"
+		  document.getElementById('fairycont').style.visibility = "hidden"
+		  
 }}};
 
 
