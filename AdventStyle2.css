@@ -1,0 +1,579 @@
+.fairylightscontainter{
+	z-index: 20;
+	pointer-events: none;
+	max-width: 100%;
+	overflow-x: clip;
+	display: inline-flex;
+	top: 0;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	height: 10px;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.fairyModule{
+	display: inline-flex;
+}
+.Flight1{
+	animation-delay:0s;
+	animation: lightAnim 3s steps(2, jump-none) infinite;
+	background: #78787899;
+}
+.Flight2{
+	animation-delay:1s;
+	animation: lightAnim 3s 1s steps(2, jump-none) infinite;
+	background: #228b2299;
+}
+.Flight3{
+	animation: lightAnim 3s 2s steps(2, jump-none) infinite;
+	background: #ed143d99;
+}
+.lightholder{
+	display: grid;
+	margin: 0 40px;
+}
+.Flight1,.Flight2,.Flight3{
+	position: relative;
+	left: -10px;
+	transform: rotate(45deg);
+	height: 50px;
+	width: 50px;
+	border: 2px black solid;
+	border-radius: 0% 100% 0% 100%;
+}
+.lightshade{
+	position: absolute;
+	top: -15px;
+	border-radius: 5px;
+	border: 2px solid black;
+	opacity: 100%;
+	background: #403f3f;
+	width: 30px;
+	height: 20px;
+}
+@keyframes lightAnim{
+	0% {background: #78787899;}
+	33% {background: #ed143d99;box-shadow: 0px 0px 50px 10px #ed143d99;}
+	66% {background: #228b2299;box-shadow: 0px 0px 50px 10px #228b2299;}
+	100% {background: #78787899;}
+}
+
+
+.mySlides {
+  display: none;
+}
+.numbertext {
+  border-radius:30%;
+  z-index:504;
+  background:white;
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.rezitext {
+	padding: 1%;
+	border-style: dashed;
+	margin: 5% 10%;
+	font-size: xx-large;
+	font-weight: 700;
+	font-family: cursive;
+}
+.rezitext::before,.rezitext::after {
+	content: "\"";
+}
+
+
+.youtubevid {
+	 padding-top: 3%;
+	 aspect-ratio: 16/9;
+	 object-fit: contain;
+	 max-height: 60vh;
+	 width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+iframe#wordle {
+	height: 60vh;
+	border: none;
+}
+video {
+max-height: 60vh;
+padding-top: 2%;
+width: 100%;
+display: block;
+margin: 0 auto;
+}
+.clickbox {
+cursor: pointer;
+}
+.SnowflakeContainer {
+	position: absolute;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	z-index: 50;
+	pointer-events: none
+}
+.snowflake {
+	--size: 1vw;
+	width: var(--size);
+	height: var(--size);
+	position: absolute;
+	top: -20vh;
+	z-index: 50;
+	pointer-events: none
+}
+@keyframes snowfall {
+	0% {
+		transform: translate3d(var(--left-ini),0,0)
+		}
+
+	to {
+		transform: translate3d(var(--left-end),100vh,0)
+		}
+}
+.snowflake:nth-child(1) {
+	--size: .5vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 5vw;
+	rotate: 0deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 1s
+}
+.snowflake:nth-child(2) {
+	--size: .3vw;
+	--left-ini: 0vw;
+	--left-end: -3vw;
+	left: 10vw;
+	rotate:-3deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -2s
+}
+.snowflake:nth-child(3) {
+	--size: .6vw;
+	--left-ini: 0vw;
+	--left-end: 3vw;
+	left: 15vw;
+	rotate: 4deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 5s
+}
+.snowflake:nth-child(4) {
+	--size: .7vw;
+	--left-ini: 0vw;
+	--left-end: -2vw;
+	left: 20vw;
+	rotate: 5deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -2s
+}
+.snowflake:nth-child(5) {
+	--size: .2vw;
+	--left-ini: 0vw;
+	--left-end: -8vw;
+	left: 25vw;
+	rotate: -2deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -3s
+}
+.snowflake:nth-child(6) {
+	--size: .4vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 30vw;
+	rotate: -4deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 2s
+}
+.snowflake:nth-child(7) {
+	--size: .7vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 35vw;
+	rotate: 4deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 0s
+}
+.snowflake:nth-child(8) {
+	--size: .9vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 40vw;
+	rotate: 2deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -3s
+}
+.snowflake:nth-child(9) {
+	--size: .5vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 45vw;
+	rotate: 0deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -7s
+}
+.snowflake:nth-child(10) {
+	--size: .3vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 50vw;
+	rotate: -3deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 7s
+}
+.snowflake:nth-child(11) {
+	--size: .6vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 55vw;
+	rotate: 4deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 9s
+}
+.snowflake:nth-child(12) {
+	--size: .7vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 60vw;
+	rotate: 2deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -4s
+}
+.snowflake:nth-child(13) {
+	--size: .1vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 65vw;
+	rotate: 0deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 6s
+}
+.snowflake:nth-child(14) {
+	--size: .9vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 70vw;
+	rotate: -1deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 1s
+}
+.snowflake:nth-child(15) {
+	--size: .3vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 75vw;
+	rotate: 2deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -4s
+}
+.snowflake:nth-child(16) {
+	--size: .8vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 80vw;
+	rotate: 5deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -3s
+}
+.snowflake:nth-child(17) {
+	--size: .5vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 85vw;
+	rotate: -3deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 3s
+}
+.snowflake:nth-child(18) {
+	--size: .4vw;
+	--left-ini: 0vw;
+	--left-end: 5vw;
+	left: 90vw;
+	rotate: 2deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: 7s
+}
+.snowflake:nth-child(19) {
+	--size: .6vw;
+	--left-ini: 0vw;
+	--left-end: 2vw;
+	left: 95vw;
+	rotate: 0deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -4s
+}
+.snowflake:nth-child(20) {
+	--size: .2vw;
+	--left-ini: 0vw;
+	--left-end: -8vw;
+	left: 100vw;
+	rotate: 3deg;
+	animation: snowfall 9s linear infinite;
+	animation-delay: -2s
+}
+
+html,body,#root {
+	overflow: clip;
+	max-height: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	min-width: 100vw;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	background-image: url("https://raw.githubusercontent.com/BuggiesNest/buggiesnest.github.io/refs/heads/main/Images/TreeBG2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -100;
+}
+body::-webkit-scrollbar {
+	 display: none; /* Chrome, Safari, and Opera */
+}
+body {
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1 {
+	z-index: 25;
+	display: grid;
+	justify-content: center;
+	font-family: "Fontdiner Swanky", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: xxx-large;
+	color: green;
+	text-align: center;
+	filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px 1px 0 black) drop-shadow(1px -1px 0 black) drop-shadow(-1px -1px 0 black);
+	position: relative;
+}
+
+
+.App {
+	max-height: 80%;
+	max-width: 100%;
+	justify-self: center;
+	aspect-ratio: 4/3;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	object-fit: cover;
+	height: inherit;
+	margin: 0 auto;
+}
+
+.Container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.Tile {
+	width: 21%;
+	aspect-ratio: 1/1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: White;
+	font-weight: 500;
+	position: relative;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	margin: 2%;
+}
+.Tile:hover {
+	-webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
+	filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white)
+}
+.TileImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+.TileText {
+	font-size: xxx-large;
+	position: static;
+	align-self: self-end;
+	z-index: 11;
+	text-shadow: 2px 2px black;
+	padding-bottom: 10%;
+}
+
+@media only screen and (orientation: portrait) {
+	.App {
+        aspect-ratio: 3/4;
+		}
+	.Tile {
+        width: 29%;
+		}
+}
+
+
+.warning {
+padding: 0.2% 1% 0.2% 1%;
+z-index: 10;
+position: absolute;
+bottom: 0;
+background: #00000045;
+color: white;
+text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 0px 1px black, 1px 0px 1px black, -1px 0px 1px black, 0px -1px 1px black;
+}
+
+
+.buggiewindow {
+	background: #00000055;
+	z-index: 500;
+	display: grid;
+	justify-content: center;
+	margin: auto;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.giftboxv, .giftbox {
+	padding-top: 3%;
+	object-fit: contain;
+	max-height: 70vh;
+	width: 100%;
+	height: 80%;
+	display: block;
+}
+.galleryBox {
+	display: table;
+	justify-content: center;
+	max-height: 70vh;
+	border-radius: 3vh;
+	background: whitesmoke;
+	width: 50vw;
+	z-index: 502;
+}
+
+.gifterrorbox {
+	text-align: center;
+	border-radius: 20px;
+	padding: 20px;
+	color: red;
+	font-size: 50px;
+	background: whitesmoke;
+	z-index: 501;
+}
+
+
+.creditText::before {
+	vertical-align: super;
+	font-size: small;
+	content: "by: ";
+}
+.creditText2::before {
+	vertical-align: super;
+	font-size: small;
+	content: "from: ";
+}
+.galleryText {
+	padding: 0 10%;
+	color: grey;
+	font-size: large;
+	text-align: center;
+}
+.galleryText2 {
+	padding: 0 10%;
+	background: whitesmoke;
+	color: lightgrey;
+	font-size: large;
+	text-align: center;
+	border-radius: 20px;
+}
+.creditText,.creditText2 {
+	font-size: x-large;
+	text-align: center;
+}
+
+
+.arrowBox {
+	pointer-events: none;
+	left: 0;
+	width: 100%;
+	line-height: 7vh;
+	top: 50%;
+	position: absolute;
+	text-align: center;
+	font-size: 6vh;
+	display: flex;
+}
+.lArrow, .rArrow{
+	pointer-events: all;
+	position: relative;
+	aspect-ratio: 1/1;
+	background: white;
+	border-radius: 100%;
+	height: 8vh;
+	cursor: pointer;
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
+}
+.lArrow:hover,.rArrow:hover {
+	-webkit-filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey);
+	filter: drop-shadow(2px 2px 0 lightgrey) drop-shadow(-2px 2px 0 lightgrey) drop-shadow(2px -2px 0 lightgrey) drop-shadow(-2px -2px 0 lightgrey)
+}
+.lArrow {
+	margin-right: auto;
+	margin-left: 10%;
+}
+.rArrow {
+	margin-left: auto;
+	margin-right: 10%;
+}
+
+
+.errorbutton {
+	user-select: none;
+	text-align: center;
+	align-content: center;
+	font-family: cursive;
+	font-weight: bolder;
+	width: 3vw;
+	background: darkred;
+	border-radius: 20%;
+	border: 3px solid #000000;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	aspect-ratio: 1/1;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
