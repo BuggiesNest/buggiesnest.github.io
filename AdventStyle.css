@@ -668,9 +668,6 @@ html,body,#root {
 	.creditText,.creditText2 {
 	    font-size: x-large;
 	    text-align: center;
-	 } {
-	    font-size: x-large;
-	    text-align: center;
 	 }
 	
 
@@ -801,6 +798,7 @@ iframe#wordle {
         width: 29%;
     }
 }
+
 
 
 
