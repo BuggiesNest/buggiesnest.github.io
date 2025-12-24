@@ -685,6 +685,7 @@ html,body,#root {
 	}
 
 	.arrowBox {
+	    pointer-events: none;
 	    left: 0;
 	    width: 100%;
 	    line-height: 7vh;
@@ -697,6 +698,7 @@ html,body,#root {
 	}
 
 	.lArrow {
+	    pointer-events: all;
 	    position: relative;
 	    aspect-ratio: 1/1;
 	    background: white;
@@ -709,8 +711,11 @@ html,body,#root {
 	    margin-right: auto;
 	    margin-left: 10%;
 	}
-
+	.clickbox {
+    cursor: pointer;
+	}
 	.rArrow {
+	    pointer-events: all;
 	    position: relative;
 	    aspect-ratio: 1/1;
 	    background: white;
