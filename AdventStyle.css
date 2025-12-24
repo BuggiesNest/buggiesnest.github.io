@@ -62,9 +62,7 @@ body::-webkit-scrollbar {
 	}
 
 	.rezitext {
-		/* animation: boxAnimation 0.5s steps(2, jump-none) infinite alternate; */
 		padding: 1%;
-		/* border-color: forestgreen; */
 		border-style: dashed;
 		margin: 5% 10%;
 		font-size: xx-large;
@@ -74,11 +72,6 @@ body::-webkit-scrollbar {
 
 	.rezitext::before,.rezitext::after {
 		content: "\"";
-	}
-
-	@keyframes boxAnimation {
-	  from {border-color: crimson;}
-	  to {border-color: forestgreen;}
 	}
 
 	.youtubevid {
@@ -746,7 +739,6 @@ html,body,#root {
 		user-select: none;
 	}
 	.fairyModule{
-		overflow: clip visible;
 		display: inline-flex;
 	}
 	.Flight1{
@@ -811,6 +803,7 @@ iframe#wordle {
         width: 29%;
     }
 }
+
 
 
 
