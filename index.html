@@ -1,5 +1,4 @@
-<html>
-	<head>
+<html><head>
 		<title>Buggies' Advent Calendar</title>
 		<script src="AdventScriptTest.js"></script> <!-- JS management of advent -->
 		<link rel="icon" type="image/svg+xml" href="./Images/Snowflake Icon.webp"> <!-- Website Icon-->
@@ -22,7 +21,7 @@
 			}
 			</style></head>
 	
-	<body><header>
+	<body onload="WindowErrorTest()"><header>
 		<nav>
 		</nav>
 	</header>
@@ -110,6 +109,7 @@
 			</div>
 		</div>
 		<div class="warning">We have become aware of a bug affecting Firefox/Ublock Origin users, contents of this webpage may be scrambled and spoiled due to use of adblock.</div>
+		<div class="errorbutton" onclick="WindowErrorFunction()" id="errorbuttonn" style="visibility:hidden;">X</div>
 		</main>
 <!--                     _                _   _                __                          _ -->
 <!--                    | |              | | (_)              / _|                        (_)-->
@@ -505,54 +505,48 @@
 				<div class="buggiewindow" onclick="Window11Function2()"></div>
 				<div class="galleryBox">
 					<div class="slidesDay11 fade" style="display: block;">
-						<div class="numbertext">1 / 7</div>
+						<div class="numbertext">1 / 6</div>
 						<br>
 						<div class="rezitext">My new year's resolution is to learn basic Japanese so I won't be a baka gaijin when I go on a trip there next year</div>
 						<div class="creditText2">Acidic</div>
 					</div>
 
 					<div class="slidesDay11 fade" style="display: none;">
-						<div class="numbertext">2 / 7</div>
+						<div class="numbertext">2 / 6</div>
 						<br>
 						<div class="rezitext">New Year’s resolutions are to lock in on becoming a buff buggie and bring home a 1st place war game trophy for the buggies!</div>
 						<div class="creditText2">Kozak</div>
 					</div>
 
 					<div class="slidesDay11 fade" style="display: none;">
-						<div class="numbertext">3 / 7</div>
+						<div class="numbertext">3 / 6</div>
 						<br>
 						<div class="rezitext">I want to undo the desk job damage and become fit again 💪</div>
 						<div class="creditText2">Liv</div>
 					</div>
 
 					<div class="slidesDay11 fade" style="display: none;">
-						<div class="numbertext">4 / 7</div>
+						<div class="numbertext">4 / 6</div>
 						<br>
 						<div class="rezitext">Build a rowboat and go camping along the river with it.</div>
 						<div class="creditText2">Solahi</div>
 					</div>
 
 					<div class="slidesDay11 fade" style="display: none;">
-						<div class="numbertext">5 / 7</div>
+						<div class="numbertext">5 / 6</div>
 						<br>
 						<div class="rezitext">I want to max in OldSchool RS. Then I can finally start playing the game!</div>
 						<div class="creditText2">Andrick</div>
 					</div>
 
 					<div class="slidesDay11 fade" style="display: none;">
-						<div class="numbertext">6 / 7</div>
+						<div class="numbertext">6 / 6</div>
 						<br>
 						<div class="rezitext">Alrighty, lets see...
 							<br>• Read at least one book a month.
 							<br>• Work out regularly again, complete some fitness training programs.
 							<br>• Learn to draw, and finish some art projects.</div>
 						<div class="creditText2">VulcanCakes</div>
-					</div>
-					<div class="slidesDay11 fade" style="display: none;">
-						<div class="numbertext">7 / 7</div>
-						<br>
-						<div class="rezitext">New years resolution is to finally make real progress on the difficult things I need to do. I don't want to, but I really need to, and if she could do it then I need to give it my all</div>
-						<div class="creditText2">Platypus12</div>
 					</div>
 					
 					<div class="galleryText">New Years Resolutions</div>
@@ -568,8 +562,29 @@
 			<div class="buggiewindow" id="buggiewindow12" style="visibility: hidden;">
 				<div class="buggiewindow" onclick="Window12Function2()"></div>
 				<div class="galleryBox">
-					<img class="giftbox" src=".\Images\testface.png"> 
-					<div class="galleryText">Magmaboard</div>
+					<div class="slidesDay12 fade" style="display: block;">
+						<div class="numbertext">1 / 2</div>
+						<img src=".\Images\day12\buggiecookies.png" class="giftboxv">
+						<div class="galleryText">Christmas Cookie Magmaboard</div>
+						<div class="creditText">Background by Liv, Cookies by Many Buggies!</div>
+						<!--<div class="creditText">Click Image for Credits</div>-->
+					</div>
+
+					<div class="slidesDay12 fade" style="display: none;">
+						<div class="numbertext">2 / 2</div>
+						<a href="https://chestbuggs-roast.vercel.app/" target="_blank">
+						<img src=".\Images\day12\roastingmarshmallows.png" class="giftboxv">
+						</a>
+						<div class="galleryText2">(Click image to open game in new tab)</div>
+						<div class="galleryText">Roasting Marshmallows Game</div>
+						<div class="creditText">Liv, Acidic, and Superspinch</div>
+					</div>
+					<div class="galleryText">Christmas Treats</div>
+					<br>
+					<div class="arrowBox">
+						<div class="lArrow" onclick="plusSlides(-1,10)">&lt;</div>
+						<div class="rArrow" onclick="plusSlides(1,10)">&gt;</div>
+					</div>
 				</div>
 			</div>
 			
@@ -589,33 +604,17 @@
 					</div>
 				</div>
 			</div>
-
+			<div class="buggiewindow" id="buggiewindowerror2" style="visibility: hidden;">
+				<div class="buggiewindow" onclick="WindowErrorFunction2()"></div>
+				<div class="galleryBox">
+					<img class="giftbox" src=".\Images\SantaFerumi.png"> 
+					<div class="galleryText" style="color: red;font-weight: bold;">You found a gremlin! <br>
+					<span style="font-size: small;">Even though the calander is over she's here to stay</span>
+					</div>
+				</div>
+			</div>
 
 			
 		</div>
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
