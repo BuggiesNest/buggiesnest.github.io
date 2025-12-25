@@ -438,15 +438,7 @@ h1 {
 }
 
 
-.warning {
-padding: 0.2% 1% 0.2% 1%;
-z-index: 10;
-position: absolute;
-bottom: 0;
-background: #00000045;
-color: white;
-text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 0px 1px black, 1px 0px 1px black, -1px 0px 1px black, 0px -1px 1px black;
-}
+.warning {margin-right: 4vw;pointer-events: none;padding: 0.2% 1% 0.2% 1%;z-index: 10;position: absolute;bottom: 0;background: #00000045;color: white;text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 0px 1px black, 1px 0px 1px black, -1px 0px 1px black, 0px -1px 1px black;}
 
 
 .buggiewindow {
@@ -559,7 +551,7 @@ text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1p
 
 
 .errorbutton {
-	user-select: none;
+	z-index: 25;
 	text-align: center;
 	align-content: center;
 	font-family: cursive;
