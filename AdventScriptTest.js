@@ -174,6 +174,7 @@ function ChristmasTest(){
 
 function WindowErrorFunction(){
 	var audio = new Audio('./Images/clown-honk.mp3');
+	audio.volume = 0.2;
 	audio.play();
 	document.getElementById('buggiewindowerror2').style.visibility = "visible"
 };
@@ -224,7 +225,7 @@ function showSlides(n, no) {
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
-  x[slideIndex[no]-1].style.display = "block";  
+  x[slideIndex[no]-1].style.display = "block"  
 };
 
 
